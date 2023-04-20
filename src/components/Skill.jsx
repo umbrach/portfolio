@@ -3,13 +3,12 @@ import React from "react";
 import HTML from "../assets/html.png";
 import CSS from "../assets/css.png";
 import Firebase from "../assets/firebase.png";
-import Github from "../assets/github.png";
+// import Github from "../assets/github.png";
 import JS from "../assets/javascript.png";
 import Node from "../assets/node.png";
 import ReactImg from "../assets/react.png";
 import Tailwind from "../assets/tailwind.png";
 import Mongo from "../assets/mongo.png";
-// import AWS from "../assets/aws.png";
 
 function Skill() {
   return (
@@ -53,8 +52,8 @@ function Skill() {
             <p className="my-4">Firebase</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-300">
-            <img className="w-20 mx-auto " src={Github} alt="Github icon" />
-            <p className="my-4">GitHub</p>
+            <img className="w-20 mx-auto " src={Tailwind} alt="Github icon" />
+            <p className="my-4">Tailwind</p>
           </div>
         </div>
       </div>
