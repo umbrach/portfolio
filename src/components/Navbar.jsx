@@ -17,7 +17,7 @@ function Navbar() {
   return (
     <div className="fixed w-full h-[100px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-200">
       <div className="ml-4">
-        <img src={Logo} alt="Logo img" width={60} />
+        <img src={Logo} alt="Logo img" width={40} />
       </div>
 
       {/* menu */}
@@ -95,7 +95,7 @@ function Navbar() {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
             <a
               className="flex justify-between items-center w-full text-gray-300 "
-              href="https://www.linkedin.com/in/denys-barabanov-9a79b913b"
+              href="https://www.linkedin.com/in/denys-barabanov-9a79b913b" target="blank" 
             >
               LinkedIn <FaLinkedin size={30} />
             </a>
@@ -103,7 +103,7 @@ function Navbar() {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]">
             <a
               className="flex justify-between items-center w-full text-gray-300 "
-              href="https://github.com/umbrach"
+              href="https://github.com/umbrach" target="blank"
             >
               GitHub <FaGithub size={30} />
             </a>
@@ -111,7 +111,7 @@ function Navbar() {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#1873d4]">
             <a
               className="flex justify-between items-center w-full text-gray-300 "
-              href="https://t.me/umbrach"
+              href="https://t.me/umbrach" target="blank"
             >
               Telegram <FaTelegram size={30} />
             </a>
@@ -119,7 +119,7 @@ function Navbar() {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#9e8f19]">
             <a
               className="flex justify-between items-center w-full text-gray-300 "
-              href="https://drive.google.com/file/d/1i5BPnsPc48gSIsLR09bprZE9coj1qi1D/view?usp=share_link"
+              href="https://drive.google.com/file/d/1i5BPnsPc48gSIsLR09bprZE9coj1qi1D/view?usp=share_link" target="blank"
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>
