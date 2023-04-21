@@ -3,7 +3,6 @@ import React from "react";
 import HTML from "../assets/html.png";
 import CSS from "../assets/css.png";
 import Firebase from "../assets/firebase.png";
-// import Github from "../assets/github.png";
 import JS from "../assets/javascript.png";
 import Node from "../assets/node.png";
 import ReactImg from "../assets/react.png";
@@ -12,7 +11,7 @@ import Mongo from "../assets/mongo.png";
 
 function Skill() {
   return (
-    <div name="skills" className="w-full h-screen bg-[#0a192f] text-gray-200">
+    <div name="skills" className="w-full h-full pt-[80px] bg-[#0a192f] text-gray-200">
       {/* container */}
       <div className="max-w-[1200px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div>

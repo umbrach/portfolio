@@ -2,14 +2,16 @@ import React from "react";
 import Cocktails from "../assets/Cocktails.png";
 import FoodSta from "../assets/FoodSta.png";
 import Kapusta from "../assets/Kapu$ta.png";
-// import Crypto from "../assets/CryptoBase.png";
 import Weather from "../assets/Weather.png";
 import Mobile from "../assets/ReactNative.png";
 import Crypto from "../assets/Crypto.png";
 
 function Work() {
   return (
-    <div name="work" className="w-full md:h-screen text-gray-300 bg-[#0a192f]">
+    <div
+      name="work"
+      className="w-full md:h-screen pt-[80px] text-gray-300 bg-[#0a192f]"
+    >
       <div className="max-w-[1200px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p className="text-4xl font-bold  inline border-b-4 text-gray-200 border-[#f152af]">

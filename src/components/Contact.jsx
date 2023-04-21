@@ -4,7 +4,7 @@ function Contact() {
   return (
     <div
       name="contact"
-      className="w-full h-screen flex justify-center items-center p-4 bg-[#0a192f]"
+      className="w-full h-full flex justify-center items-center pt-[100px] px-4 bg-[#0a192f]"
     >
       <form
         method="POST"
