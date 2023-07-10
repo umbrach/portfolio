@@ -15,13 +15,13 @@ function Navbar() {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-200">
+    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-200 z-10">
       <div className="ml-2">
         <img src={Logo} alt="Logo img" width={40} />
       </div>
 
       {/* menu */}
-      <ul className="hidden md:flex">
+      <ul className="hidden md:[flex]">
         <li className="text-xl inline hover:border-b-2 border-[#f152af]">
           <Link to="home" smooth={true} duration={500}>
             Home
